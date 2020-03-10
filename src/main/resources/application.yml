@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://newstart.c3ngohygouvl.ap-northeast-2.rds.amazonaws.com:3306/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=true
+      username: srkks
+      password: 1q2w3e4r!
+      driver-class-name: com.mysql.jdbc.Driver
+    jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: updated
+server:
+  port: 8081
+#spring:
+#  datasource:
+#    hikari:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      jdbc-url: jdbc:mysql://newstart.c3ngohygouvl.ap-northeast-2.rds.amazonaws.com:3306/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=true
+#      username: srkks
+#      password : 1q2w3e4r!
